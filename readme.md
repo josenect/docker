@@ -1,31 +1,44 @@
-comando docker
 
-//listas imagenes 
-docker images
+<h1 align="center">comandos docker</h1>
 
-//listar contenedores up
-docker ps 
+<br>
 
-//listar todos los contenedores 
-docker ps -a
+## :dart: About ##
 
-//correr imagen Dockerfile
-sudo docker build .
+Describe your project
 
-//correr imagen DockerFile con nombre y version 
-sudo docker build -t mi_app_docker:latest .
 
-//correr contedor apartir de la imagen
-sudo docker run -it --rm -d -p 8080:80 --name name_app name_imagen
+```bash
+# Listas imagenes 
+$ docker images
 
-//correr contenedor 
-sudo docker start 136841809fc1
+# Listar contenedores up
+$ docker ps 
 
-//detener contenedor 
-sudo docker stop 136841809fc1
+# Listar todos los contenedores 
+$ docker ps -a
 
-//eliminar imagen
-sudo docker rmi -f 3b9272c1c1ad
+# Generar imagen Dockerfile
+$ sudo docker build .
 
-//eliminar contenedor 
-sudo docker rm -f 3b9272c1c1ad
+# Generar imagen DockerFile con nombre y version 
+$ sudo docker build -t mi_app_docker:latest .
+
+# Correr contedor apartir de la imagen
+$ sudo docker run -it --rm -d -p 8080:80 --name name_app name_imagen
+
+# Correr contenedor 
+$ sudo docker start 136841809fc1
+
+# Detener contenedor 
+$ sudo docker stop 136841809fc1
+
+# Eliminar imagen
+$ sudo docker rmi -f 3b9272c1c1ad
+
+# Eliminar contenedor 
+$ sudo docker rm -f 3b9272c1c1ad
+
+
+
+```
